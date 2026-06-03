@@ -1,0 +1,84 @@
+.map-page {
+  min-height: 100vh;
+  background: #f4f8fc;
+  padding: 30px;
+}
+
+.map-title {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.map-search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.map-search input {
+  width: 400px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+.map-search button {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.map-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.map-area {
+  flex: 3;
+  height: 500px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.map-info {
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.info-card {
+  background: #f8fafc;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.legend {
+  margin-top: 25px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.good {
+  color: green;
+}
+
+.moderate {
+  color: orange;
+}
+
+.poor {
+  color: red;
+}

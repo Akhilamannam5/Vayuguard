@@ -1,0 +1,62 @@
+.forecast-page {
+  min-height: 100vh;
+  background: #f4f8fc;
+  padding: 30px;
+}
+
+.forecast-title {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  width: 350px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+.search-box button {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.forecast-cards {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.day-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.graph-area {
+  margin-top: 30px;
+  background: white;
+  height: 300px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.recommendations {
+  margin-top: 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+}
